@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotations CRUD Application</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="text-center px-4">
+            <h3 >Quotations</h3>
+        </div>
+        
+        <form id="quote-form">
+            <div class="hr-l hr-r vr-b vr-t">
+                <div class="text-left company-section" id="quote-header">
+                    <div class="info hr-r">
+                        <div class="host-company-section ">
+                            <h6>ACCURATE COMPUTER SERVICES <br> GST: 09BMRPK6475R1ZQ</h6>
+                            <p>
+                                1190, VILLAGE LISARI,
+                                <br>NEAR NOOR NAGAR HALT,
+                                <br>MEERUT, UTTAR-PRADES (09), 250002, INDIA                     
+                                <br>SAIFULLAH KHAN (99-97-060355)                            
+                            </p>
+                        </div>
+                        <div class="customer-section vr-t">
+                            <h6>ACCURATE COMPUTER SERVICES <br> GST: 09BMRPK6475R1ZQ</h6>
+                            <p>Billing Details : 
+                                <br>1190, VILLAGE LISARI,
+                                <br>NEAR NOOR NAGAR HALT,
+                                <br>MEERUT, UTTAR-PRADES (09), 250002, INDIA                     
+                                <br>SAIFULLAH KHAN (99-97-060355)                            
+                            </p>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="">
+                            <div class="info-section vr-b ">
+                                <div class="hr-r">
+                                    <p>
+                                        Quotation Number
+                                        <br> 0001
+                                    </p>
+                                </div>
+                                <div class="hr-r">
+                                    <p>
+                                        Dated
+                                        <br> 21/08/2024
+                                    </p>
+                                </div>
+                                <div class="">
+                                    <p>
+                                        Refrences
+                                        <br> Hello this is my Refrences.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="info-section vr-b">
+                                <div class="">
+                                    <p>
+                                        Quotation Validity : 7 Days
+                                         
+                                    </p>
+                                </div>
+                                <div class="">
+                                    <p>
+                                        <!-- Dated
+                                        <br> 21/08/2024 -->
+                                    </p>
+                                </div>
+                                <div class="">
+                                    <p>
+                                        <!-- Refrences
+                                        <br> Hello this is my Refrences. -->
+                                    </p>
+                                </div>
+    
+                            </div>
+                        </div>
+                        <div class="shipto-section vr-t">
+                            <div class="customer-section">
+                                <h6>ACCURATE COMPUTER SERVICES <br> GST: 09BMRPK6475R1ZQ  </h6>
+                                <p>
+                                    Shipping Details :
+                                    <br>1190, VILLAGE LISARI,
+                                    <br>NEAR NOOR NAGAR HALT,
+                                    <br>MEERUT, UTTAR-PRADES (09), 250002, INDIA                     
+                                    <br>SAIFULLAH KHAN (99-97-060355)                            
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hr-l hr-r vr-b">
+                <div class="company-section">
+                    <div class="inv-data-left hr-r">
+                        <div class="">
+                            Product Descryption 
+                        </div>
+                        
+                        <div class="hr-l">
+                            HSN/SAC
+                        </div>
+                    </div>
+                    <div class="inv-data-right">
+                        <div class="hr-r">
+                            Qty
+                        </div>
+                        <div class="hr-r">
+                            Rate
+                        </div>
+                        <div class="hr-r">
+                            Gst-Rate
+                        </div>
+                        <div class="hr-r">
+                            Gst-Amount
+                        </div>
+                        <div class="">
+                            Amount
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="min-h hr-l hr-r vr-b">
+                <div class="company-section vr-b">
+                    <div class="inv-data-left hr-r">
+                        <div class=" prod">
+                            <input type="text" class="form-control" id="product_id_1" placeholder="Products">
+                            <textarea class="form-control" id="" rows="1" placeholder="Details"></textarea>
+                        </div>
+                        <div class="hr-l">
+                            <input type="number" class="form-control" min="0" id="" placeholder="HSN/SAC">
+                        </div>
+                    </div>
+                    <div class="inv-data-right">
+                        <div class="hr-r">
+                            <input type="number" class="form-control" min="0" id="" placeholder="Qty">
+                        </div>
+                        <div class="hr-r">
+                            <input type="number" class="form-control" min="0" id="" placeholder="Rate">
+                        </div>
+                        <div class="hr-r">
+                            <input type="number" class="form-control" min="0" id="" placeholder="Gst-Rate">                        
+                        </div>
+                        <div class="hr-r">
+                            <input type="number" class="form-control" min="0" id="" placeholder="Gst-Amount">
+                        </div>
+                        <div class="">
+                            <input type="number" class="form-control" min="0" id="" placeholder="Amount">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hr-l hr-r vr-b">
+                <div class="company-section">
+                    <div class="inv-data-left hr-r">
+                        <div class="">
+                            
+                        </div>
+                        
+                        <div class="text-right">
+                            Total
+                        </div>
+                    </div>
+                    <div class="inv-data-right">
+                        <div class="hr-r">
+                            C-GST
+                        </div>
+                        <div class="hr-r">
+                            
+                        </div>
+                        <div class="hr-r">
+                            S-GST
+                        </div>
+                        <div class="hr-r">
+                            
+                        </div>
+                        <div class="">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hr-l hr-r">
+                <div class="company-section text-left px-2">
+                    <div class="">
+                        Amount in words : <br> One Crore Ten Lakh Eighteen Thousand Fifteen Hundred Eighteen Seven rupees Eighteen Piasa Only.
+                    </div>
+                </div>
+            </div>
+            <div class="hr-l hr-r vr-t">
+                <div class="text-left company-section" id="quote-header">
+                    <div class="info hr-r">
+                        <div class="info-section ">
+                            <p>Terms & Conditions: <br>Invoice date
+                                Timeframes that your client is expected to meet
+                                Transaction amounts
+                                Billing method & address </p>
+                            
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="">
+                            <div class="info-section  ">
+                                <p>Bank Details : <br>Account Number : 88502210036928 <br>IFSCE-CODE: SMCB000881 <br> Branch : Shastri Nagar, MEERUT</BR> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hr-l hr-r vr-b">
+                <div class="text-left company-section" id="quote-header">
+                    <div class="info hr-r">
+                        <div class="customer-section vr-t">
+                            <p6>Declarations: <br> </p6>
+                            
+                        </div>
+                    </div>
+                    <div class="info vr-t">
+                        <div class="">
+                            <div class="info-section text-right ">
+                                <p>for ACCURATE COMPUTER SERVICES <br> <br> <br>  Authorised Signatory</BR> </p>
+                            </div>
+                        </div>
+                        <div class=" ">
+                            <div class="">
+                                <!-- <div>Authrised Sigantoury:</div> -->
+                                
+                            </div>
+                            <div class="">
+                                <!-- <div>From ACCURATE COMPUTER SERVICES</div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+    </div>
+    <p class="text-center">This is a Computer Generated Invoice</p>
+</body>
+</html>

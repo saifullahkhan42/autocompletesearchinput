@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box; /* includng the border and pading element when set the element property */
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif; /* set the fon family */
+}
+.company-section {
+    margin: unset;
+    padding: unset;
+    text-align: center;
+    border-bottom: unset;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.info {
+    margin: unset;
+    text-align: left;
+    /* border: 0.1rem solid #8e8b8b; */
+    /* border-bottom: unset; */
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.host-company-section {
+    padding: 10px;
+    box-sizing: content-box; /* Ensure padding does not affect the border */
+}
+.host-company-section p {
+    margin: unset;
+}
+.customer-section {
+    padding: 10px;
+    box-sizing: content-box; /* Ensure padding does not affect the border */
+}
+
+.info-section{
+    margin: unset;
+    text-align: left;
+    border-bottom: unset;
+    display: grid;
+    grid-auto-flow: column;
+}
+.info-section p {
+    padding: 5px 10px;
+    margin: unset;
+}
+h5 {
+    font-weight: 600;
+}
+h6 {
+    font-weight: 600;
+}
+.inv-heading {
+  margin: unset;
+  text-align: center;
+  /* border: 0.1rem solid #8e8b8b;
+  border-bottom: unset; */
+  display: grid;
+  height: auto;
+  grid-template-columns: 40% 10% 10% 10% 15% 15%;
+}
+
+.min-h {
+  min-height: 40vh;
+  /* border: 0.1rem solid #8e8b8b; */
+}
+.inv-data-left {
+  margin: unset;
+  text-align: left;
+  display: grid;
+  height: auto;
+  grid-template-columns: 80% 20%;
+}
+.prod {
+    margin: unset;
+    text-align: left;
+    display: grid;
+    height: auto;
+    gap: 2px;
+    grid-template-columns: 2fr 1fr;
+}
+.inv-data-left div {
+    padding: 5px;
+    box-sizing: content-box;
+}
+.inv-data-right {
+  margin: unset;
+  text-align: center;
+  display: grid;
+  height: auto;
+  grid-template-columns: 15% 15% 20% 25% 25%;
+}
+.inv-data-right div {
+    padding: 5px;
+    box-sizing: content-box;
+}
+
+.inv-footer {
+  margin: unset;
+  text-align: center;
+  border: 0.1rem solid #8e8b8b;
+  display: grid;
+  height: auto;
+  grid-template-columns: 40% 10% 10% 10% 15% 15%;
+  margin-bottom: 0%;
+}
+.inv-heading div {
+  font-weight: 600;
+  padding: 6px; /* Add padding inside the elements */
+  box-sizing: content-box; /* Ensure padding does not affect the border */
+}
+.inv-data div {
+  padding: 4px; /* Add padding inside the elements */
+  box-sizing: content-box; /* Ensure padding does not affect the border */
+}
+.inv-footer div {
+  text-align: left;
+  padding: 6px; /* Add padding inside the elements */
+  box-sizing: content-box; /* Ensure padding does not affect the border */
+}
+.hr-r {
+  border-right: 0.1rem solid #8e8b8b;
+}
+.hr-l {
+    border-left: 0.1rem solid #8e8b8b;
+  }
+.vr-t {
+    border-top: 0.1rem solid #8e8b8b;
+}
+.vr-b {
+    border-bottom: 0.1rem solid #8e8b8b;
+}
